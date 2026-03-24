@@ -39,3 +39,38 @@ Payroll-Management-System/
     ├── src/
     ├── pom.xml
     └── .mvn/
+🛠️ Setup & Installation
+Prerequisites
+Node.js (v18+)
+
+JDK (17 or 21)
+
+MySQL Server
+
+1. Database Setup
+Create a MySQL database named payroll_db.
+
+Update the backend/src/main/resources/application.properties with your MySQL username and password.
+
+2. Run Backend (Spring Boot)
+Bash
+cd backend
+mvn spring-boot:run
+The server will start on http://localhost:8080
+
+3. Run Frontend (React)
+Bash
+cd frontend
+npm install
+npm run dev
+The app will be available at http://localhost:5173
+
+✨ Key Features
+User Roles: Admin, Accountant, and Employee dashboards.
+
+Payroll Processing: Automated salary calculation, tax slab management, and deductions.
+
+Attendance & Leave: Real-time attendance records and leave request workflows.
+
+Reports: Generation of salary analytics and employee reports.
+
